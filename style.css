@@ -1,0 +1,66 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: url("https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+}
+
+img {
+	/*opacity: 0.9;*/
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*align-content: center;*/
+}
+
+.box3 {
+	margin: 10px auto;
+}
+
+h1, h2 {
+	text-align: center;
+	/*font-family: Dosis;*/
+}
+
+img {
+	width: 30%;
+	min-width: 200px;
+	display: block;
+	margin: 30px auto;
+	/*box-shadow: 2px 2px 30px rgba(0,0,0,0.3);*/
+}
+
+.btn, .btn-primary-btn-lg {
+	font-family: Chewy;
+	border-radius: 10px;
+	/*box-shadow: 2px 2px 30px rgba(0,0,0,0.3);*/
+	font-size: 2em;
+	background-color: rgb(122,219,238);
+	border: none;
+}
+
+.btn:hover, .btn:active .btn:visited{
+	background-color: rgb(102,199,218);
+}
+
+div.box2 {
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+	/*color: white;*/
+	/*box-shadow: 2px 2px 30px rgba(0,0,0,0.3);*/
+	padding: 20px;
+
+
+}
